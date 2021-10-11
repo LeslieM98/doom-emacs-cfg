@@ -1,4 +1,6 @@
 # Personal configuration for doom emacs
+## Prerequirements
+- LSP Server: https://github.com/hlissner/doom-emacs/tree/develop/modules/lang/cc#lsp-servers
 ## Installation
 *Disclamer*: this will delete your old configuration so make a backup
 
