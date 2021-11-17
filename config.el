@@ -59,8 +59,10 @@
 (autoload 'prolog-mode "prolog" "Major mode for editing Prolog programs." t)
 (autoload 'run-prolog "prolog" "Start a Prolog sub-process." t)
 (add-to-list 'auto-mode-alist '("\\.pl$" . prolog-mode))
+(add-to-list 'auto-mode-alist '("\\.sol$" . js-mode))
 (setq prolog-system 'swi)
 
 
 (setq geiser-active-implmentation 'racket)
 (setq projectile-project-search-path '("~/Repos/" "~/repos/"))
+;; (setq doom-theme 'doom-one-light)
