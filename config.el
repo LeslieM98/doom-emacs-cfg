@@ -65,4 +65,4 @@
 
 (setq geiser-active-implmentation 'racket)
 (setq projectile-project-search-path '("~/Repos/" "~/repos/"))
-;; (setq doom-theme 'doom-one-light)
+(setq tide-format-options '(:indentSize 4 :tabSize 4))
