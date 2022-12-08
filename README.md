@@ -6,5 +6,5 @@
 
 ``` shell
 rm -rf ~/.doom.d
-git clone https://github.com/LeslieM98/doom-emacs-cfg.git ~/doom.d
+git clone https://github.com/LeslieM98/doom-emacs-cfg.git ~/.doom.d
 ```
